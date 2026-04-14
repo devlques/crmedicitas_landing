@@ -15,6 +15,7 @@ import demo from "../imports/demo.gif";
 import logo from "../imports/logo_crmedicitas.png";
 const WHATSAPP_URL =
   "https://wa.me/50688902811?text=Hola%2C%20me%20interesa%20saber%20m%C3%A1s%20sobre%20CRmedicitas";
+const DEMO_URL = "https://demo.crmedicitas.com/"
 
 export default function App() {
   return (
@@ -37,10 +38,11 @@ export default function App() {
               ¿Cómo funciona?
             </a>
             <a
-              href={WHATSAPP_URL}
+              href={DEMO_URL}
               className="px-5 py-2 bg-[var(--primary)] text-white rounded-full text-sm hover:bg-[var(--dark)] transition-colors"
+              target="_blank"
             >
-              Solicitar demo
+               Ir a demo
             </a>
           </div>
         </div>
@@ -124,7 +126,7 @@ export default function App() {
             </h2>
           </motion.div>
 
-          <div className="grid md:grid-cols-[1.5fr_3fr] gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-[1.2fr_2fr] gap-8 max-w-6xl mx-auto">
             {/* Patient Booking Interface */}
             <motion.div
               className="bg-white rounded-2xl overflow-hidden shadow-2xl"
@@ -327,14 +329,15 @@ export default function App() {
               Empiece a organizar su clínica hoy
             </h2>
             <p className="text-lg text-slate-300 mb-8 max-w-xl mx-auto">
-              Solicite una demostración gratuita y descubre cómo
+              Pruebe una demostración gratuita y descubra cómo
               CRmedicitas puede transformar su gestión de citas.
             </p>
             <a
-              href={WHATSAPP_URL}
+              href={DEMO_URL}
               className="px-8 py-4 bg-white text-[#0B2447] rounded-full hover:bg-slate-100 transition-colors inline-flex items-center gap-2"
+              target="_blank"
             >
-              Solicitar demo
+              Ir a demo
               <ChevronRight className="w-5 h-5" />
             </a>
           </motion.div>
