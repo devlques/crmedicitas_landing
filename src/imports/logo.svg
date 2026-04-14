@@ -1,0 +1,25 @@
+<svg width="240" height="60" viewBox="0 0 240 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Calendar outline -->
+  <rect x="10" y="10" width="44" height="40" rx="6" fill="none" stroke="#0B2C4D" stroke-width="2"/>
+
+  <!-- Calendar top bar -->
+  <line x1="10" y1="18" x2="54" y2="18" stroke="#0B2C4D" stroke-width="2"/>
+
+  <!-- Binding tabs -->
+  <line x1="20" y1="10" x2="20" y2="5" stroke="#0B2C4D" stroke-width="2"/>
+  <line x1="44" y1="10" x2="44" y2="5" stroke="#0B2C4D" stroke-width="2"/>
+
+  <!-- Grid (days) -->
+  <rect x="16" y="22" width="6" height="6" fill="#3FBFA0" rx="1"/>
+  <rect x="26" y="22" width="6" height="6" fill="#3FBFA0" rx="1"/>
+  <rect x="36" y="22" width="6" height="6" fill="#3FBFA0" rx="1"/>
+
+  <rect x="16" y="32" width="6" height="6" fill="#3FBFA0" rx="1"/>
+  <rect x="26" y="32" width="6" height="6" fill="#3FBFA0" rx="1"/>
+  <rect x="36" y="32" width="6" height="6" fill="#3FBFA0" rx="1"/>
+
+  <!-- Text -->
+  <text x="70" y="36" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#0B2C4D">
+    <tspan fill="#3FBFA0" font-weight="bold">CR</tspan>medicitas
+  </text>
+</svg>
